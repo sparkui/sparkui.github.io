@@ -27,13 +27,13 @@ html, body, .uispark-wrapper{
 .uispark-layout__sidebar{
   width: 200px;
   background: red;
-  transition: width 1s;
+  transition: width 1s  cubic-bezier(0.18, 0.89, 0.32, 1.28);
   padding: 15px;
 }
 
 
 .uispark-layout__sidebar--on{
-  transition: width 1s;
+  transition: width 1s  cubic-bezier(0.18, 0.89, 0.32, 1.28);
   width: 110px;
 }
 
