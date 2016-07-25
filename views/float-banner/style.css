@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.uispark-floatBanner__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.uispark-floatBanner__header{
+  height: 50px;
+  color: white;
+  line-height: 50px;
+  padding: 0 10px;
+  position: relative;
+  background-color: #555252;
+}
+
+.uispark-floatBanner__main {
+  position: relative;
+}
+
+.uispark-floatBanner__banner {
+  position: absolute;
+  width: 100%;
+  padding: 0 10px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 60px;
+  background: white;
+  box-shadow: 0 2px 1px #dcdcdc;
+
+  display: flex;
+  align-items: center;
+}
+
+.uispark-floatBanner__content {
+  margin-top: 60px;
+  height: 800px;
+  background-color: #F4F4F4;
+  padding: 10px;
+}
+
+.uispark-floatBanner-fixed {
+  position: fixed;
+  top: 0;
+}
+

@@ -5,5 +5,6 @@ window.demoList = [
   'popups',
   'triangle-corners',
   'notify-box',
-  'sortable'
+  'sortable',
+  'float-banner'
 ];
