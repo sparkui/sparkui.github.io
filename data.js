@@ -6,5 +6,6 @@ window.demoList = [
   'triangle-corners',
   'notify-box',
   'sortable',
-  'float-banner'
+  'float-banner',
+  'lazy-loading'
 ];
