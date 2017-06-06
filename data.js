@@ -7,5 +7,6 @@ window.demoList = [
   'notify-box',
   'sortable',
   'float-banner',
-  'lazy-loading'
+  'lazy-loading',
+  'carousel'
 ];
